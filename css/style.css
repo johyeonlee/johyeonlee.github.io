@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 6.8vw;
+  font-size: 7.5vw;
   font-family: serif;
   font-weight: bold;
   margin-bottom: 1%;
@@ -91,11 +91,11 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: darkcyan;
+    color: black;
 }
 
 section a span {
-  margin-top: 15vw;
+  margin-top: 16vw;
   position: absolute;
   top: 0;
   left: 50%;
