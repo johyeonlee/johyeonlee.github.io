@@ -25,15 +25,15 @@
   background: #fff;
   border-radius: 2px;
   display: inline-block;
-  height: 500px;
-  width: 400px;
-  margin: 5rem;
+  height: 80%;
+  width: 40%;
+  margin: 4%;
   position: relative;
 }
 
 .card-1 {
-  box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.02);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.02);
+  transition: all 0.3s cubic-bezier(.25,.8,.8,1);
 }
 
 .card-1:hover {
@@ -41,8 +41,8 @@
 }
 
 .card-2 {
-  box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.02);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 10px 10px rgba(0,0,0,0.22), 0 10px 10px rgba(0,0,0,0.02);
+  transition: all 0.3s cubic-bezier(.25,.8,.8,1);
 }
 
 .card-2:hover {
@@ -99,6 +99,11 @@ section:nth-child(odd) {
 
 section.intro {
   text-align: center;
+}
+
+section.end {
+  height: 15vh;
+  background-color: #fff;
 }
 
 /* unvisited link */
@@ -188,7 +193,6 @@ section span::before {
   font-size: 18px;
   position: relative;
   text-align: center;
-  padding-top: 10%;
 }
 
 .indicator {
