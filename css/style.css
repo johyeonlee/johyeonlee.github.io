@@ -190,7 +190,7 @@ section span::before {
 
 .footer {
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   position: relative;
   text-align: center;
 }
