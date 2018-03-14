@@ -193,6 +193,7 @@ section span::before {
   font-size: 1em;
   position: relative;
   text-align: center;
+  padding-top: 10%;
 }
 
 .indicator {
