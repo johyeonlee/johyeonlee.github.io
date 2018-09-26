@@ -69,7 +69,7 @@
       <article id="contact">
         <h1>Contact</h1>
         <div id='wrapper'>
-          <form action='mailto:jhlee980@gmail.com' class='form'>
+          <form action='mailto:jhlee980@gmail.com' method="get" class='form' enctype="text/plain">
             <p class='field'>
               <label class='label required' for='name'>Name</label>
               <input class='text-input' id='name' name='name' required type='text'></p>
@@ -81,7 +81,7 @@
               <input class='text-input' id='subject' name='subject' required type='text'></p>
             <p class='field'>
               <label class='label' for='message'>Message</label>
-              <textarea class='textarea' cols='50' id='message' name='message' required rows='5'></textarea></p>
+              <textarea class='textarea' cols='50' id='message' name="body" required rows='5' type="text"></textarea></p>
             <p class='field'>
               <input class='button' type='submit' value='Send message'></p>
           </form>
