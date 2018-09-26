@@ -1,6 +1,9 @@
 body {
   font-family: "Montserrat";
-  padding: 5% 10%;
+}
+
+h1 {
+  padding: 5% 10% 5% 5%;
 }
 
 img {
