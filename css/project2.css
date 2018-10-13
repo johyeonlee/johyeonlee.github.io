@@ -3,6 +3,10 @@ body {
   padding: 5% 10%;
 }
 
-img {
-  padding: 2%;
+.image {
+  text-align: center;
+}
+
+.image .caption {
+  text-align: center;
 }
