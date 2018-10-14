@@ -42,12 +42,11 @@
 
 .card-2 {
   transition: all 0.3s cubic-bezier(.25,.8,.8,1);
-  filter: drop-shadow(0 10px 10px rgba(0,0,0,22));
-  
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));  
 }
 
 .card-2:hover {
-  filter: drop-shadow(0 15px 15px rgba(0,0,0,0.25));
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,22));
 }
 
 h1 {
