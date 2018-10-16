@@ -3,6 +3,10 @@ body {
   padding: 5% 10%;
 }
 
+h1 {
+  padding-bottom: 3%;
+}
+
 .image {
   text-align: center;
 }
