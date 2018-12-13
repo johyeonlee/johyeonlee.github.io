@@ -38,7 +38,7 @@ $(window).load(function(){
     var iInverse = $articles.length - i - 1;
     // Top margin is a function of the nodes before it, bottom is proportional to those after. determines stacking at top / bottom static positions
     var margins = 'margin: ' + ((i*2.3)+1.5) + 'em 0 ' + ((iInverse*2.3)+1.5) + 'em 0;';
-    rawIndicators +=  '<a class="indicator indicator--upcoming" style="' + margins + '" href="#' + this.id + '"><span class="indicator-tooltip">' + $(this).find("h1").text() + '</span></a>';
+    rawIndicators +=  '<a class="indicator indicator--upcoming" style="' + margins + '" href="#' + this.id + '"><span class="indicator-tooltip">' + $(this).find("h2").text() + '</span></a>';
   });
   $("body").append(rawIndicators);
 
@@ -63,7 +63,7 @@ $(window).load(function(){
       var o = {
         $indicator: $(this),
         $target: $( $(this).attr("href") ),
-        $targetTitle: $( $(this).attr("href") + " h1" )
+        $targetTitle: $( $(this).attr("href") + " h2" )
       };
 
       // When it's abs positioned (on the move), this is the top pos

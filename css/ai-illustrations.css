@@ -1,0 +1,19 @@
+body {
+  font-family: "Montserrat";
+  padding: 5% 10%;
+}
+
+h1 {
+  font-weight: normal;
+  padding-bottom: 3%;
+}
+
+.image {
+  text-align: center;
+}
+
+.image .caption {
+  font-size: 18px;
+  transform: scale(0.88,0.9);
+  text-align: center;
+}

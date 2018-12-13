@@ -1,0 +1,23 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 5% 10%;
+}
+
+h1 {
+  font-weight: normal;
+  padding-bottom: 3%;
+}
+
+.content {
+  display: flex;
+}
+
+.contentLeft {
+  margin: 0 20px 50px 0;
+  text-align: right;
+}
+
+.contentRight {
+  transform: scale(0.88,0.9);
+  font-size: 18px;
+}
