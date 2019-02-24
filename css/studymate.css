@@ -12,9 +12,31 @@ h1 {
 h2 {
   font-size: 16px;
   font-weight: normal;
-  margin-bottom: 6%;
+}
+
+h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 3%;
+}
+
+img {
+  margin: 5% 0 2.5%;
 }
 
 .time {
   color: #888;
+}
+
+.brief {
+  font-style: oblique;
+}
+
+.subsection {
+  text-align: center;
 }

@@ -9,15 +9,22 @@ h1 {
 }
 
 .content {
-  display: flex;
+  display: inline-block;
+  overflow: auto;
+  float: left;
+  text-align: center;
 }
 
 .contentLeft {
+  display: inline-block;
   margin: 0 20px 50px 0;
-  text-align: right;
 }
 
 .contentRight {
+  display: inline-block;
+  overflow: auto;
   transform: scale(0.88,0.9);
+  text-align: left;
   font-size: 18px;
+  max-width: 500px;
 }
