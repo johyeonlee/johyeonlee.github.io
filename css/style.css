@@ -15,7 +15,7 @@
 
 #content {
   position: relative;
-  width: 80%;
+  width: 75%;
   margin: auto;
 }
 
@@ -122,27 +122,18 @@ p {
   border-radius: 2px;
   display: inline-block;
   height: 80%;
-  width: 40%;
+  width: 50%;
   margin: 4%;
   position: relative;
   text-align: center;
 }
 
-.card-1 {
+.card-effect {
   transition: all 0.3s cubic-bezier(.25,.8,.8,1);
   filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
 }
 
-.card-1:hover {
-  filter: drop-shadow(0 10px 10px rgba(0,0,0,20));
-}
-
-.card-2 {
-  transition: all 0.3s cubic-bezier(.25,.8,.8,1);
-  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
-}
-
-.card-2:hover {
+.card-effect:hover {
   filter: drop-shadow(0 10px 10px rgba(0,0,0,20));
 }
 
@@ -243,7 +234,6 @@ section span::before {
   font-size: 1.25vw;
   transform: scale(1.15,1.1);
   text-align: center;
-  padding-top: 50px;
 }
 
 .indicator {
