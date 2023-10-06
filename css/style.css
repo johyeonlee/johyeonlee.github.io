@@ -55,6 +55,20 @@ p {
   position: relative;
 }
 
+.grid .caption {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  transform: scale(0.88,0.9);
+  text-align: center;
+}
+
+.gallery .caption {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  transform: scale(0.88,0.9);
+  text-align: center;
+}
+
 .clearfix {
   transform: translate(150%, 0%);
   text-align: center;
@@ -231,7 +245,7 @@ section span::before {
 
 .footer {
   font-family: "Lato", sans-serif;
-  font-size: 1.2vw;
+  font-size: 1vw;
   transform: scale(1.15,1.1);
   text-align: center;
   margin-top: 5vw;
@@ -323,13 +337,34 @@ section span::before {
   -webkit-transition: opacity .3s ease;
   -moz-transition: opacity .3s ease;
   -o-transition: opacity .3s ease;
-  background-color: #00000082;
-  border-radius: 17%;
   z-index: 1000;
 }
 
 .grid td:hover .overlay {
+  border-radius: 17%;
+  background-color: #00000082;
   opacity: 1;
+}
+
+.gallery {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-left: 50%;
+  border-spacing: 50px;
+  animation: scrollmenu 60s linear infinite;
+}
+
+.gallery td {
+  position: relative;
+  text-align: center;
+  padding-right: 50px;
+}
+
+.gallery .text {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
 }
 
 .text {
@@ -352,4 +387,13 @@ div.scrollmenu {
   background-image: url('../images/gallerybg.jpg');
   overflow: auto;
   white-space: nowrap;
+}
+
+@keyframes scrollmenu {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
 }
