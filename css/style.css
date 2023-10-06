@@ -23,9 +23,9 @@ h1 {
   font-family: "Lato", sans-serif;
   font-size: 2.55vw;
   font-weight: bold;
-  margin: 1.7%;
+  margin: 1.5%;
   color: #333;
-  letter-spacing: 0.1vw;
+  letter-spacing: 0.03vw;
 }
 
 h2 {
@@ -40,7 +40,15 @@ h3 {
   font-weight: 300;
   padding-bottom: 0.6%;
   color: #222;
-  letter-spacing: 0.1vw;
+}
+
+h3.wide {
+  line-height: 1.8;
+  letter-spacing: 0.03vw;
+}
+
+h3.narrow {
+    line-height: 0.8;
 }
 
 a {
