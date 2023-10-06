@@ -290,6 +290,7 @@ section span::before {
   border: 0.4em solid transparent;
   border-left: 0.5em solid #555;
 }
+
 .indicator .indicator-tooltip {
   width: auto;
   padding: 0.4em;
@@ -344,4 +345,11 @@ section span::before {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+div.scrollmenu {
+  background-size: contain;
+  background-image: url('../images/gallerybg.jpg');
+  overflow: auto;
+  white-space: nowrap;
 }
