@@ -1,3 +1,5 @@
+"use strict";
+
 $(window).resize(function () {
   waitForFinalEvent(function(){
     bodyHeight = $('body').height();
