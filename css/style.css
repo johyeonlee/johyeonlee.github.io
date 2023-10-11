@@ -8,7 +8,7 @@
 #profile {
     border-radius: 50%;
     width: 10%;
-    min-width: 75px;
+    min-width: 90px;
     height: auto;
     padding: 0px;
     margin-top: 100px;
@@ -22,7 +22,8 @@
 
 h1 {
   font-family: "Lato", sans-serif;
-  font-size: 2.55vw;
+  /* font-size: 2.55vw; */
+  font-size: calc(12px + 2vw);
   font-weight: bold;
   margin: 1.5%;
   color: #333;
@@ -30,15 +31,17 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.9vw;
+  /* font-size: 2.9vw; */
+  font-size: calc(12px + 2vw);
   margin-bottom: 5%;
 }
 
 h3 {
   font-family: "Lato", sans-serif;
-  font-size: 1.5vw;
+  /* font-size: 1.5vw; */
+  font-size: calc(12px + 0.9vw);
   font-weight: 300;
-  padding-bottom: 0.6%;
+  padding-bottom: 0.5%;
   color: #222;
   letter-spacing: 0.02vw;
 }
@@ -48,7 +51,7 @@ h3.wide {
 }
 
 h3.narrow {
-    line-height: 0.8;
+  line-height: 0.8;
 }
 
 a {
@@ -76,17 +79,17 @@ p {
   transform: scale(0.88,0.9);
   text-align: center;
 }
-/* 
+
 .clearfix {
   transform: translate(150%, 0%);
   text-align: center;
   margin-top: 0.5em;
   width: 20%;
   float: left;
-} */
+}
 
 .icon {
-  width: 20px;
+  width: 14px;
   margin-right: 6%;
 }
 
@@ -136,25 +139,20 @@ p {
 }
 
 .project-img{
-  margin-bottom: 2%;
+  margin: 2%;
 }
 
 .card {
-  background: #fff;
-  border-radius: 2px;
   display: inline-block;
-  height: 80%;
-  width: 50%;
-  margin: 4%;
+  height: 25vw;
   position: relative;
   text-align: center;
 }
 
 .card-effect {
-  display: inline;
-  height: 80%;
-  width: 50%;
-  margin: 4%;
+  display: inline-block;
+  height: 20vh;
+  margin: 3%;
   position: relative;
   text-align: center;
   transition: all 0.3s cubic-bezier(.25,.8,.8,1);
@@ -168,6 +166,7 @@ p {
 section {
   position: relative;
   height: 101vh;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,39 +184,36 @@ section:nth-child(even) {
 
 section.intro {
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 15vh;
 }
 
-/*
 section.end {
   height: 5vh;
-  margin-bottom: 30px;
-  background-color: #fff;
+  background-color: #555;
 }
-*/
 
 section a span {
-  margin-top: 565px;
+  margin-top: 70vh;
   position: absolute;
   top: 0;
   left: 48%;
-  width: 30px;
-  height: 50px;
-  border: 2px solid black;
-  border-radius: 50px;
+  width: 3vh;
+  height: 5vh;
+  border: 0.2vh solid black;
+  border-radius: 50vh;
   box-sizing: border-box;
 }
 
 section span::before {
   position: absolute;
-  top: 10px;
+  top: 0.1vh;
   left: 50%;
   content: '';
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
+  width: 0.6vh;
+  height: 0.6vh;
+  margin-left: -0.3vh;
   background: none;
-  border: 1px solid black;
+  border: 0.1px solid black;
   border-radius: 100%;
   -webkit-animation: sdb10 1.5s infinite;
   animation: sdb10 1.5s infinite;
@@ -259,10 +255,10 @@ section span::before {
 
 .footer {
   font-family: "Lato", sans-serif;
-  font-size: 1vw;
+  font-size: calc(8px + 0.5vw);
+  color: #ffffff;
   transform: scale(1.15,1.1);
   text-align: center;
-  margin-top: 5vw;
 }
 
 .indicator {
@@ -373,7 +369,7 @@ section span::before {
 .gallery td {
   position: relative;
   text-align: center;
-  padding-right: 50px;
+  padding-right: 5vw;
 }
 
 .gallery .text {
