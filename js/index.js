@@ -27,7 +27,7 @@ $(function() {
 // Global var to cache info about indicators for easy access. 
 var indicators = [];
 
-$(window).load(function(){
+$(window).on("load", function() {
 
   //
   //	CREATE THE INDICATORS AND ADD TO PAGE
