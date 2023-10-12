@@ -11,13 +11,13 @@ var waitForFinalEvent = (function () {
 
 $(window).resize(function () {
   waitForFinalEvent(function(){
-    bodyHeight = $('body').height();
-    sliderHeight = $('.slider-navigation').height();
-    elementHeight = $('section').height();
-    sectionAmount = $('section').length;
-    scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight() );
+    var bodyHeight = $('body').height();
+    var sliderHeight = $('.slider-navigation').height();
+    var elementHeight = $('section').height();
+    var sectionAmount = $('section').length;
+    var scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight() );
 
-    updatePos();
+    // updatePos();
   }, 500, "resizing");
 });
 
