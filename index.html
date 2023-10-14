@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Johyeon Lee</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300, 400" rel="stylesheet">
@@ -86,7 +86,7 @@
     <div id="container">
       <article id="project2">
           <h2>Previous Work</h2>
-          <div class="content">
+          <!-- <div class="content">
             <a href="peoplewatching.html">
               <div class="content-overlay"></div>
               <img class="content-image" src="images/peoplewatching_main.png">
@@ -95,7 +95,7 @@
                 <p class="content-text">Tech Art</p>
               </div>
             </a>
-          </div>
+          </div> -->
           <div class="content">
             <a href="mlfinternship.html">
               <div class="content-overlay"></div>
@@ -137,46 +137,46 @@
           <table class="gallery">
             <tr>
               <td>
-                <img class="card" src="images/gongyoo.png">
+                <img class="card" src="images/gongyoo.png" alt="Gongyoo">
               </td>
               <td>
-                <img class="card" src="images/isometric.png">
+                <img class="card" src="images/isometric.png" alt="Gamble">
               </td>
               <td>
-                <img class="card" src="images/cliff.jpeg">
+                <img class="card" src="images/cliff.jpeg" alt="Cliff">
               </td>
               <td>
-                <img class="card" src="images/dawn.jpeg">
+                <img class="card" src="images/dawn.jpeg" alt="Dawn">
               </td>
               <td>
-                <img class="card" src="images/figure.png">
+                <img class="card" src="images/figure.png" alt="Figure">
               </td>
               <td>
-                <img class="card" src="images/paintball.png">
+                <img class="card" src="images/paintball.png" alt="Paintball">
               </td>
               <td>
-                <img class="card" src="images/valentines.png">
+                <img class="card" src="images/valentines.png" alt="Valentine">
               </td>
               <td>
-                <img class="card" src="images/ariana.png">
+                <img class="card" src="images/ariana.png" alt="Ariana">
               </td>
               <td>
-                <img class="card" src="images/arcolafoodposter.png">
+                <img class="card" src="images/arcolafoodposter.png" alt="Grocery Store">
               </td>
               <td>
-                <img class="card" src="images/johyeon.png">
+                <img class="card" src="images/johyeon.png"  alt="Intern">
               </td>
               <td>
-                <img class="card" src="images/businesscard.jpg">
+                <img class="card" src="images/businesscard.jpg" alt="Business Card">
               </td>
               <td>
-                <img class="card" src="images/zine.png"></a>
+                <img class="card" src="images/zine.png" alt="Zine"></a>
               </td>
               <td>
-                <a href="images/doodlebook.pdf" target="_blank"><img class="card" src="images/doodlebook.png"></a>
+                <a href="images/doodlebook.pdf" target="_blank"><img class="card" src="images/doodlebook.png"  alt="Doodle Book"></a>
               </td>
               <td>
-                <img class="card" src="images/wayfinding.png">
+                <img class="card" src="images/wayfinding.png" alt="Wayfinding">
               </td>
             </tr>
             <tr>
@@ -201,14 +201,52 @@
   <section class="project" id="project4">
     <div id="container">
       <article id="project4">
-        <h2>Say Hello</h2>
-        <p class="myself">UX Designer & CMS Developer<br>
-        <a href="./resume.pdf" target="_blank" class="fa fa-download"></a>
+        <h2>Contact</h2>
+        <div class="box">
+          <form action="mailto:jhlee980@gmail.com" method="post" enctype="text/plain">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="">
+        
+                    
+            <label for="email">Email</email>
+            <input type="text" id="email" name="email" placeholder="">
+        
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="" style="height: 150px"></textarea>
+        
+            <input style="text-align: center" type="submit" value="SEND">
+          </form>
+        </div>
+        <!-- <center>
+          <div class="contact-form-widget">
+            <div class="form">
+              <form name="contact-form">
+                <div class="name">Name:</div>
+                <input class="contact-form-name" id="ContactForm1_contact-form-name" name="name" size="30" type="text" value="" />
+                <br />
+                <br />
+                <div class="email">E-mail:</div>
+                <input class="contact-form-email" id="ContactForm1_contact-form-email" name="email" size="30" type="text" value="" />
+                <br />
+                <br />
+                <div class="pesan">
+                Message:</div>
+                <textarea class="contact-form-email-message" cols="30" id="ContactForm1_contact-form-email-message" name="email-message" rows="10"></textarea>
+                <br />
+                <input class="contact-form-button contact-form-button-submit fa-user" id="ContactForm1_contact-form-submit" type="button" value="Send" />
+                <br />
+              </form>
+            </div>
+          </div>
+        </center> -->
+        <p class="myself"><br><br>
         <a href="https://www.facebook.com/profile.php?id=100009237025968" target="_blank" class="fa fa-facebook-square"></a>
         <a href="https://www.instagram.com/johyeonlee" target="_blank" class="fa fa-instagram"></a>
         <!-- <a href="https://codepen.io/johyeonlee" target="_blank" class="fa fa-codepen"></a> -->
         <a href="https://www.pinterest.ca/johyeonlee/" target="_blank" class="fa fa-pinterest-square"></a>
         <a href="https://www.linkedin.com/in/johyeonlee" target="_blank" class="fa fa-linkedin-square"></a>
+        <span class="vl"></span>
+        <a href="./resume.pdf" target="_blank" class="fa fa-download"></a>
       </article>
     </div>
   </section>
@@ -218,7 +256,7 @@
 
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/underscore@stable/underscore-umd-min.js'></script>
-  <script src="./js/index.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 
