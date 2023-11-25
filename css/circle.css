@@ -1,5 +1,3 @@
-* {-webkit-font-smoothing: antialiased;}
-
 body {
   font-family: "Montserrat", sans-serif;
   padding: 5% 20%;
@@ -19,7 +17,6 @@ h2 {
 
 h3 {
   font-size: 16px;
-  font-weight: bolder;
   text-transform: uppercase;
   margin-bottom: 0;
 }

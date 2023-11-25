@@ -1,36 +1,34 @@
-* {-webkit-font-smoothing: antialiased;}
-
 body {
-    font-family: "Montserrat", sans-serif;
-    padding: 5% 20%;
+  font-family: "Montserrat", sans-serif;
+  padding: 5% 20%;
   }
   
 h1 {
-    font-size: 30px;
-    font-weight: normal;
-    margin-bottom: 0;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0;
   }
   
 h2 {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 2rem;
-  }
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
   
 h3 {
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 0;
-  }
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
   
 p {
-    font-size: 16px;
-    margin-bottom: 3%;
-  }
+  font-size: 16px;
+  margin-bottom: 3%;
+}
   
 img {
-    margin: 1.5% 0 2.5%;
-  }
+  margin: 1.5% 0 2.5%;
+}
 
 .link {
   transition: all .2s;

@@ -8,6 +8,43 @@ h1 {
   padding-bottom: 3%;
 }
 
+.scrollmenu {
+  background-size: contain;
+  background-image: url('../images/gallerybg.jpg');
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.gallery {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-left: 50%;
+  border-spacing: 50px;
+  animation: scrollmenu 80s linear infinite;
+}
+
+.gallery td {
+  position: relative;
+  text-align: center;
+  padding-right: 5vw;
+}
+
+.gallery .caption {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  height: 20vw;
+  min-height: 100px;
+  position: relative;
+  text-align: center;
+}
+
 .image {
   text-align: center;
 }
@@ -16,4 +53,13 @@ h1 {
   font-size: 18px;
   transform: scale(0.88,0.9);
   text-align: center;
+}
+
+@keyframes scrollmenu {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(-100%, 0);
+  }
 }
