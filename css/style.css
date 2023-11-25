@@ -79,7 +79,7 @@ p {
   box-sizing: border-box;
   margin: 0.5em;
   background: rgba(0, 0, 0, 0);
-  transition: all 0.2s;
+  transition: all .2s;
 }
 
 .fa:hover {
@@ -108,7 +108,7 @@ p {
 .link,
 .link:after,
 .link:before {
-  transition: all .3s;
+  transition: all .2s;
 }
 .link:hover {
   color: #99ccff;
@@ -129,9 +129,7 @@ p {
   box-shadow: 0 0 1px #000; */
 
   text-align: center;
-  /* background-color: #ccc; */
   font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
   font-size: calc(9px + 0.5vw);
   outline: 0.2vh solid #aaa;
   color: #aaa;
@@ -147,13 +145,13 @@ p {
   transition: all .3s;
 }
 .info:hover {
-  /* text-shadow: 0 0 3px currentColor;
-  text-decoration: underline; */
+  /* text-shadow: 0 0 3px currentColor; */
+  /* text-decoration: underline; */
 
-  transition: .1ss linear;
+  transition: .3s linear;
   outline: 0.2vh solid #000;
   color: #000;
-  font-weight: 800;
+  /* filter: drop-shadow(0 2px 2px #99ccff); */
 }
 
 .project-content {
@@ -165,12 +163,12 @@ p {
 }
 
 .card-effect {
-  transition: all 0.3s cubic-bezier(.25,.8,.8,1);
-  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.5));
+  transition: all .3s cubic-bezier(.25,.8,.8,1);
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2));
 }
 
 .card-effect:hover {
-  filter: drop-shadow(0 10px 10px rgba(0,0,0,20));
+  filter: drop-shadow(0 10px 10px #99ccff);
 }
 
 section {
@@ -223,7 +221,7 @@ footer{
   background: #555;
   border-radius: 50%;
   opacity: 0.3;
-  transition: opacity 0.5s;
+  transition: opacity .5s;
 }
 .indicator--passed, .indicator--upcoming {
   position: fixed;
