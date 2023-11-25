@@ -64,7 +64,7 @@ p {
   float: left;
 }
 
-.fa {
+.bi {
   display: inline-block;  
   color: inherit;
   border: 1px solid;
@@ -82,7 +82,7 @@ p {
   transition: all .2s;
 }
 
-.fa:hover {
+.bi:hover {
   color: #99ccff;
   border-color:inherit;
 }
