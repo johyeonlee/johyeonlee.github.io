@@ -3,19 +3,19 @@
 body {
     font-family: "Montserrat", sans-serif;
     padding: 5% 20%;
-  }
+}
   
 h1 {
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 0;
-  }
+}
   
 h2 {
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 2rem;
-  }
+}
   
 h3 {
     font-size: 16px;
@@ -26,11 +26,19 @@ h3 {
 p {
     font-size: 16px;
     margin-bottom: 3%;
-  }
-  
-img {
-    margin: 1.5% 0 2.5%;
-  }
+}
+
+video {
+}
+
+.row {
+  display: flex;
+  padding-top: 2%;
+}
+
+.column {
+  flex: 50%;
+}
 
 .link {
   transition: all .2s;
