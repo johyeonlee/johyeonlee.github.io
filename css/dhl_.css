@@ -1,0 +1,72 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  padding: 5% 20%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0;
+  letter-spacing: -0.01vw;
+}
+  
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  letter-spacing: -0.01vw;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+  
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-bottom: 3%;
+}
+
+img {
+  margin: 1.5% 0 2.5%;
+}
+
+.multi-layout {
+  column-count: 3;
+}
+
+.link {
+  transition: all .2s;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #99ccff;
+  text-decoration-thickness: 0.1rem;
+  color: #aaa;
+}
+
+.link:hover {
+  color: #99ccff;
+}
+
+.time {
+  color: #888;
+}
+  
+.brief {
+  font-style: oblique;
+}
+  
+.subsection {
+  text-align: center;
+}
