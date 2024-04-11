@@ -203,7 +203,6 @@ footer{
   text-align: center;
   background: #fff;
   padding-top: 20px;
-  /* margin-top: 50px; */
 }
 
 .secretlink {
@@ -215,14 +214,14 @@ footer{
 
 .secretlink:hover {
   font-size: 110%;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-style: wavy;
   text-decoration-color: #99ccff;
   -webkit-text-stroke-color: #99ccff;
 }
 
 .link {
-  transition: all .2s;
+  /* transition: all .2s; */
   font-weight: bold;
   color: #99ccff;
   text-decoration: none;
@@ -245,7 +244,8 @@ footer{
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: #99ccff;
-  -webkit-text-stroke-width: 1px;
+  text-decoration-thickness: 2.5px;
+  -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #99ccff;
 }
 

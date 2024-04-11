@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  
+  margin: 10% 0 2% 0;
 }
 
 h3 {
@@ -85,7 +85,7 @@ footer{
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.2vw);
   font-weight: normal;
-  margin: 1% 0 0 0;
+  margin: 10% 0 2% 0;
   letter-spacing: -0.01vw;
 }
 
@@ -145,7 +145,7 @@ footer{
 }
 
 .hugeMargin {
-  margin: 5% 15%;
+  margin: 5% 15% 0 15%;
 }
 
 /* Clear floats after the columns */
@@ -160,8 +160,6 @@ footer{
   /* padding: 20px; */
   text-align: center;
   background: #fff;
-  padding-top: 50px;
-  /* margin-top: 50px; */
 }
 
 .link {
@@ -195,9 +193,6 @@ footer{
 @media screen and (max-width: 850px) {
   .leftcolumn,
   .rightcolumn,
-  .onethird,
-  .twothird,
-  .lastthird,
   .onehalf,
   .lasthalf {   
     width: 100%;
