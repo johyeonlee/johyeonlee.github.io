@@ -1,12 +1,13 @@
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  margin: 0;
   }
   
 /* Add a gray background color with some padding */
-body {
+.body {
   font-family: "Montserrat", sans-serif;
-  padding: 8% 18%;
+  padding: 6% 18%;
   background: #fff;
 }
 
@@ -45,6 +46,18 @@ p {
 
 img {
   margin: 1.5% 0 2.5%;
+}
+
+footer{
+  font-family: "Raleway", sans-serif;
+  font-size: calc(8px + 0.5vw);
+  text-align: center;  
+  color: #fff;
+  background: #555;
+  width: 100vw; 
+  position: relative; 
+  bottom: 0px;
+  padding:0.8em 0;
 }
 
 /* Header/Blog Title */
@@ -114,12 +127,14 @@ img {
   float: left;
   width: 50%;
   padding-right: 20px;
+  margin-bottom: 3.5%;
 }
 
 .lasthalf {
   float: left;
   width: 50%;
   padding-left: 20px;
+  margin-bottom: 3.5%;
 }
 
 /* Add a card effect for articles */
@@ -130,7 +145,7 @@ img {
 }
 
 .hugeMargin {
-  margin: 5% 10%;
+  margin: 5% 15%;
 }
 
 /* Clear floats after the columns */
