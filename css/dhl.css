@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-  margin: 12% 0 2% 0;
+  margin: 10% 0 2% 0;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
   margin-bottom: 0;
   font-size: calc(15px + 0.1vw);
 }
-  
+
 p {
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.1vw);
@@ -89,6 +89,10 @@ footer{
   letter-spacing: -0.01vw;
 }
 
+.caption {
+  text-align: center;
+}
+
 /* Create two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -126,10 +130,6 @@ footer{
 
 .image {
   -webkit-filter: drop-shadow(0 5px 5px #ccc);
-}
-
-video {
-  -webkit-filter: drop-shadow(0 5px 5px #999);
 }
 
 /* column of 1/2 */
