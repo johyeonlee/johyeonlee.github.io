@@ -24,7 +24,6 @@ h1 {
 }
 
 h2 {
-  font-size: calc(16px + 0.5vw);
   margin: 12% 0 2% 0;
 }
 
@@ -39,7 +38,7 @@ h3 {
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: calc(10px + 0.4vw);
+  font-size: calc(15px + 0.1vw);
   margin-left: -1%;
   margin-bottom: 3%;
   transform: scale(.98,1);
@@ -70,21 +69,10 @@ footer{
   text-align: left;
   font-family: "Montserrat", sans-serif;
   /* font-size: 30px; */
-  font-size: calc(22px + 1vw);
+  font-size: calc(28px + 0.5vw);
   font-weight: bold;
   margin-bottom: 0;
   letter-spacing: -0.01vw;
-  line-height: 1.5;
-}
-
-.type {
-  text-align: left;
-  font-family: "Montserrat", sans-serif;
-  font-size: calc(10px + 0.5vw);
-  font-weight: normal;
-  margin: 1% 0 2rem 0;
-  letter-spacing: -0.01vw;
-  line-height: 1.2;
 }
 
 .subhead {
@@ -92,13 +80,21 @@ footer{
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.2vw);
   font-weight: normal;
-  margin: 6% 0 0 0;
+  margin: 1% 0 2rem 0;
+  letter-spacing: -0.01vw;
+}
+
+.subhead2 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(15px + 0.2vw);
+  font-weight: normal;
+  margin: 8% 0 2% 0;
   letter-spacing: -0.01vw;
 }
 
 .caption {
-  margin: 5% 15% 0 15%;
-  line-height: 1.4;
+  text-align: center;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -120,20 +116,20 @@ footer{
 .onethird {
   float: left;
   width: 33.33%;
-  padding-right: 10px;
+  padding-right: 20px;
   padding-top: 20px;
 }
 
 .twothird {
   float: left;
   width: 33.33%;
-  padding: 0 5px 0;
+  padding: 0 10px 0;
 }
 
 .lastthird {
   float: left;
   width: 33.33%;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .image {
@@ -164,9 +160,7 @@ footer{
 }
 
 .quote {
-  font-style: italic;
-  margin: 5% 15% 0 15%;
-  line-height: 1.4;
+  margin: 5% 25% 0 25%;
 }
 
 .hugeMargin {
