@@ -71,7 +71,7 @@ footer{
   letter-spacing: -0.01vw;
 }
 
-.subhead {
+.type {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.2vw);
@@ -80,7 +80,7 @@ footer{
   letter-spacing: -0.01vw;
 }
 
-.subhead2 {
+.subhead {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.2vw);

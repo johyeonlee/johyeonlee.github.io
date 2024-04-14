@@ -72,20 +72,11 @@ footer{
 }
 
 .subhead {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: calc(15px + 0.2vw);
-  font-weight: normal;
-  margin: 2rem 0 2rem 0;
-  letter-spacing: -0.01vw;
-}
-
-.subhead2 {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.2vw);
   font-weight: normal;
-  margin: 1% 0 0 0;
+  margin: 6% 0 0 0;
   letter-spacing: -0.01vw;
 }
 
