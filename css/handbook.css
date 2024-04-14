@@ -43,11 +43,18 @@ iframe {
   text-decoration-style: wavy;
   text-decoration-color: #99ccff;
   text-decoration-thickness: 0.1rem;
-  color: #aaa;
+  color: #999;
 }
 
 .link:hover {
   color: #99ccff;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.nolink {
+  transition: all .2s;
+  font-style: italic;
+  color: #999;
 }
 
 .time {
