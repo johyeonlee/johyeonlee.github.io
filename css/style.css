@@ -32,8 +32,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   /* font-size: 2.9vw; */
-  font-size: calc(16px + 1.5vw);
-  margin-bottom: 5%;
+  font-size: calc(12px + 1.5vw);
 }
 
 h3 {
@@ -43,6 +42,16 @@ h3 {
   padding-bottom: 0.5%;
   color: #222;
   letter-spacing: 0.02vw;
+}
+
+h4 {
+  text-align: left;
+  color: #888;
+  font-family: "Montserrat", sans-serif;
+  font-size: calc(15px + 0.2vw);
+  font-weight: normal;
+  margin: 1% 0 2rem 0;
+  letter-spacing: -0.01vw;
 }
 
 a {

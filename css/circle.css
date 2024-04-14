@@ -34,7 +34,7 @@ h3 {
   margin-bottom: 0;
   font-size: calc(15px + 0.1vw);
 }
-  
+
 p {
   font-family: "Montserrat", sans-serif;
   font-size: calc(15px + 0.1vw);
@@ -168,7 +168,6 @@ footer{
   text-decoration: line-through;
   /* text-decoration-style: wavy; */
   text-decoration-color: #99ccff;
-  /* text-decoration-thickness: 0.1rem; */
   color: #999;
 }
 

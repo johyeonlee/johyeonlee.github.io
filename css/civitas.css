@@ -163,19 +163,19 @@ footer{
 }
 
 .link {
-  /* transition: all .2s; */
+  transition: all .2s;
   font-style: italic;
   text-decoration: underline;
   text-decoration-style: wavy;
   text-decoration-color: #99ccff;
-  /* text-decoration-thickness: 0.1rem; */
-  color: #999;
+  text-decoration-thickness: 0.1rem;
+  color: #aaa;
 }
 
 .link:hover {
   color: #99ccff;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #99ccff;
+  /* -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #99ccff; */
 }
 
 .time {
