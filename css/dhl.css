@@ -205,9 +205,13 @@ footer {
 
 .figure3 {
   /* float: left; */
-  width: 58.6%%;
+  width: 58.6;
 }
 
+.figure4 {
+  /* float: left; */
+  width: 58.6;
+}
 
 .secretlink {
   transition: all .2s;
