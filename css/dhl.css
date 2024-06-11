@@ -28,14 +28,6 @@ h2 {
   margin: 12% 0 2% 0;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: calc(15px + 0.1vw);
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
 p {
   font-family: "Montserrat", sans-serif;
   font-size: calc(12px + 0.3vw);
