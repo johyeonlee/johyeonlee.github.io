@@ -82,6 +82,10 @@ footer {
   line-height: 1;
 }
 
+.space {
+  margin-left: 10%;
+}
+
 .type {
   text-align: left;
   font-family: "Montserrat", sans-serif;
